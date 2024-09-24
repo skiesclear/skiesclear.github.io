@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.53" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://clearday/demo/disable.html"><meta property="og:site_name" content="Blog Demo"><meta property="og:title" content="Disabling layout and features"><meta property="og:description" content="You can disable some function and layout on the page by setting the Frontmatter of the page."><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><meta property="og:updated_time" content="2024-09-24T12:30:53.000Z"><meta property="article:tag" content="disable"><meta property="article:modified_time" content="2024-09-24T12:30:53.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Disabling layout and features","image":[""],"dateModified":"2024-09-24T12:30:53.000Z","author":[{"@type":"Person","name":"clearday"}]}</script><title>Disabling layout and features | Blog Demo</title><meta name="description" content="You can disable some function and layout on the page by setting the Frontmatter of the page.">
+    <link rel="preload" href="/assets/style-Cwa5eg_4.css" as="style"><link rel="stylesheet" href="/assets/style-Cwa5eg_4.css">
+    <link rel="modulepreload" href="/assets/app-DozuWoZR.js"><link rel="modulepreload" href="/assets/disable.html-cQKHfi_I.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/intro.html-BMjUL1zl.js" as="script"><link rel="prefetch" href="/assets/index.html-CD06_hba.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-DMzeccNH.js" as="script"><link rel="prefetch" href="/assets/layout.html-CkDTzxhO.js" as="script"><link rel="prefetch" href="/assets/markdown.html-DIrUeehd.js" as="script"><link rel="prefetch" href="/assets/page.html-CvfzaLXR.js" as="script"><link rel="prefetch" href="/assets/index.html-pb-KEGsk.js" as="script"><link rel="prefetch" href="/assets/1.html-B80vKoke.js" as="script"><link rel="prefetch" href="/assets/2.html-CEx6IDgg.js" as="script"><link rel="prefetch" href="/assets/3.html-BvzkmTXh.js" as="script"><link rel="prefetch" href="/assets/4.html-CZwy90BB.js" as="script"><link rel="prefetch" href="/assets/1.html-BeWnwypI.js" as="script"><link rel="prefetch" href="/assets/2.html-Aa4vFbDH.js" as="script"><link rel="prefetch" href="/assets/3.html-DeLRbM9V.js" as="script"><link rel="prefetch" href="/assets/4.html-Dze5sPG6.js" as="script"><link rel="prefetch" href="/assets/cherry.html-DCXUxfnF.js" as="script"><link rel="prefetch" href="/assets/dragonfruit.html-B0V61zB8.js" as="script"><link rel="prefetch" href="/assets/strawberry.html-DncSc6wQ.js" as="script"><link rel="prefetch" href="/assets/tomato.html-IKZMK9XD.js" as="script"><link rel="prefetch" href="/assets/404.html-DfuZYIFn.js" as="script"><link rel="prefetch" href="/assets/index.html-DPoE6uXL.js" as="script"><link rel="prefetch" href="/assets/index.html-oz3RrmO1.js" as="script"><link rel="prefetch" href="/assets/index.html-f6Y4EF-K.js" as="script"><link rel="prefetch" href="/assets/index.html-CGfh_UA1.js" as="script"><link rel="prefetch" href="/assets/index.html-CQqF0tDk.js" as="script"><link rel="prefetch" href="/assets/index.html-wkBPVOcv.js" as="script"><link rel="prefetch" href="/assets/index.html-DQzpqvIW.js" as="script"><link rel="prefetch" href="/assets/index.html-Cd6brn2J.js" as="script"><link rel="prefetch" href="/assets/index.html-Bo2cB9iz.js" as="script"><link rel="prefetch" href="/assets/index.html-BDkD7JQn.js" as="script"><link rel="prefetch" href="/assets/index.html-BaB1lvou.js" as="script"><link rel="prefetch" href="/assets/index.html-CnHxuuay.js" as="script"><link rel="prefetch" href="/assets/index.html-D1FPhIxg.js" as="script"><link rel="prefetch" href="/assets/index.html-DI4ktNJn.js" as="script"><link rel="prefetch" href="/assets/index.html-DADqvweQ.js" as="script"><link rel="prefetch" href="/assets/index.html-9Mfqs-8O.js" as="script"><link rel="prefetch" href="/assets/index.html-BOGMfbnv.js" as="script"><link rel="prefetch" href="/assets/index.html-r5QZBOuy.js" as="script"><link rel="prefetch" href="/assets/index.html-DZcwTXhq.js" as="script"><link rel="prefetch" href="/assets/index.html-2jUSrE_0.js" as="script"><link rel="prefetch" href="/assets/index.html-DgHx4qTA.js" as="script"><link rel="prefetch" href="/assets/index.html-Cm9ENDMs.js" as="script"><link rel="prefetch" href="/assets/index.html-DN9D3r2r.js" as="script"><link rel="prefetch" href="/assets/index.html-COjxb05U.js" as="script"><link rel="prefetch" href="/assets/index.html-CvxlkvrS.js" as="script"><link rel="prefetch" href="/assets/index.html-BIZ1Ziwu.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><!--[--><div class="theme-container no-navbar no-sidebar external-link-icon pure" vp-container><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar" vp-sidebar><!----><ul class="vp-sidebar-links"></ul><!----></aside><!--[--><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>Disabling layout and features</h1><!----><hr></div><!----><!----><div class="theme-hope-content" vp-content><p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p><!-- more --><p>This page is an demo that disables the following features:</p><ul><li>Navbar</li><li>Sidebar</li><li>Breadcrumb</li><li>Page information</li><li>Contributors</li><li>Edit link</li><li>Update time</li><li>Prev/Next link</li><li>Comment</li><li>Footer</li><li>Back to top button</li></ul></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!--]--><!----></div><!--]--><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DozuWoZR.js" defer></script>
+  </body>
+</html>
